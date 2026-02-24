@@ -97,14 +97,22 @@ The script prints the fitted slope and displays the regression plot.
 
 ## Results
 
-The linear regression of the transformed line-strength quantity \(y\) against excitation potential \(\chi\) yields a slope
+---
 
-- \(m \approx -0.884\)
+## Results
 
-Using the weak-line Boltzmann relation
+The linear regression yields:
 
-- \(m = -\dfrac{\log_{10}(e)}{k_B T}\)
+- slope m ≈ -0.884
 
-the excitation temperature is computed as
+Under the weak-line Boltzmann relation,
 
-- \(T = -\dfrac{\log_{10}(e)}{k_B m} \approx 5.70 \times 10^3~\mathrm{K}\) (≈ 5702 K for this dataset)
+m = - log10(e) / (k_B T)
+
+the excitation temperature is
+
+T = - log10(e) / (k_B m)
+
+For the provided dataset this gives:
+
+T ≈ 5.7 × 10³ K  (≈ 5702 K)
