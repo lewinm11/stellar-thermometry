@@ -28,7 +28,13 @@ def main():
     chi_fit, y_fit = prepare_fit_data(strengths, lin_lam, loggf, chi, threshold)
     m, b = fit_line(chi_fit, y_fit)
 
-    print(f"slope m = {m}")
+    k_B = 8.617333262e-5  # Boltzmann constant in eV/K
+
+    T = - np.log10(np.e) / (k_B * m)
+
+    print(f"slope m = {m:.6f}")
+    print(f"Excitation temperature T = {T:.2f} K")
+
     print(f"N points used = {len(chi_fit)}")
 
     # Plot

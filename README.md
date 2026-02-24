@@ -92,3 +92,19 @@ The script prints the fitted slope and displays the regression plot.
 - Valid only in the weak-line regime.
 - Strong or saturated lines are excluded via thresholding.
 - The result represents an excitation-temperature proxy under simplified LTE assumptions.
+
+---
+
+## Results
+
+The linear regression of the transformed line-strength quantity \(y\) against excitation potential \(\chi\) yields a slope
+
+- \(m \approx -0.884\)
+
+Using the weak-line Boltzmann relation
+
+- \(m = -\dfrac{\log_{10}(e)}{k_B T}\)
+
+the excitation temperature is computed as
+
+- \(T = -\dfrac{\log_{10}(e)}{k_B m} \approx 5.70 \times 10^3~\mathrm{K}\) (≈ 5702 K for this dataset)
