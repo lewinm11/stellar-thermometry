@@ -97,9 +97,6 @@ The script prints the fitted slope and displays the regression plot.
 
 ## Results
 
----
-
-## Results
 
 The linear regression yields:
 
